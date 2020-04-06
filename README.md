@@ -4,3 +4,7 @@ Please use node version 13 (possibly use nvm --node version manager-- if your ot
 npm start
 
 Also start https://github.com/uclaacm/network-tarines for full client server interaction!
+
+To start, run
+## npm install
+## npm start
