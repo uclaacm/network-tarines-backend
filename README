@@ -1,0 +1,3 @@
+nvm use 13
+npm update socket.io
+npm start
