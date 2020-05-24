@@ -18,7 +18,7 @@ var app = express(),
     server = require('http').createServer(app),
     io = io.listen(server);
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3001;
 server.listen(port);
 
 app.set('views', path.join(__dirname, 'views'));
