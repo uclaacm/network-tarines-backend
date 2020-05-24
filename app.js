@@ -18,7 +18,8 @@ var app = express(),
     server = require('http').createServer(app),
     io = io.listen(server);
 
-server.listen(80);
+const port = process.env.PORT || 80;
+server.listen(port);
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
