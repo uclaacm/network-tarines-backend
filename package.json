@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
